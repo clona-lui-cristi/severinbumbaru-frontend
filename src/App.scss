@@ -53,7 +53,7 @@
           }
         }
         .photo {
-          background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+          background-image: url("./assets/images/poza1.jpg");
           background-size: cover;
           background-position: center;
           width: 100%;
@@ -80,7 +80,7 @@
           }
         }
         .photo {
-          background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+          background-image: url("./assets/images/poza2.jpeg");
           background-size: cover;
           background-position: center;
           width: 100%;
@@ -101,13 +101,13 @@
       height: 500px;
     }
     :nth-child(1) {
-      background-image: url("./assets/images/poza1.jpg");
+      background-image: url("./assets/images/nush1.png");
     }
     :nth-child(2) {
-      background-image: url("./assets/images/poza2.jpeg");
+      background-image: url("./assets/images/nush2.png");
     }
     :nth-child(3) {
-      background-image: url(https://www.w3schools.com/w3images/nature.jpg);
+      background-image: url("./assets/images/nush3.png");
     }
   }
 }
@@ -153,13 +153,45 @@ hr {
   align-items: center;
   width: 100%;
   height: 100%;
+  flex-wrap: wrap;
   .professor {
     display: flex;
+    flex: 0 0 33%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
+    &:nth-child(1){
+      .professor-photo{
+        background-image: url("./assets/images/profesori/lucian.jpg");
+      }
+    }
+    &:nth-child(2){
+      .professor-photo{
+        background-image: url("./assets/images/profesori/nicoleta.jpeg");
+      }
+    }
+    &:nth-child(3){
+      .professor-photo{
+        background-image: url("./assets/images/profesori/unknown2.png");
+      }
+    }
+    &:nth-child(4){
+      .professor-photo{
+        background-image: url("./assets/images/profesori/unknown.png");
+      }
+    }
+    &:nth-child(5){
+      .professor-photo{
+        background-image: url("./assets/images/profesori/unknown1.png");
+      }
+    }
+    &:nth-child(6){
+      .professor-photo{
+        background-image: url("./assets/images/profesori/unknown3.png");
+      }
+    }
     .professor-name {
       display: flex;
       flex-direction: row;
@@ -174,9 +206,9 @@ hr {
       width: 300px;
       height: 300px;
       border-radius: 50%;
-      background-image: url("./assets/images/prof.jpg");
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
     }
     .professor-faculty{
         margin-top: 1rem;

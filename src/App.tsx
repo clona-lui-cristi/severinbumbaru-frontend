@@ -11,9 +11,9 @@ function App() {
       <div className="container">
         <div className="content1">
           <div className="logo-name">
-            <div className='logo'></div>
+            <div className="logo"></div>
 
-            <h1>Name of the faculty</h1>
+            <h1>Universitatea „Dunărea de Jos”</h1>
 
             <span></span>
           </div>
@@ -82,28 +82,55 @@ function App() {
         <div className="professor">
           <div className="professor-photo"></div>
           <div className="professor-name">
-            <h3>Dr. ing. Stoica Vasiliu</h3>
+            <h3>Prof. univ. dr. ing. Puiu Lucian GEORGESCU</h3>
           </div>
           <div className="professor-faculty">
-            <h3>Faculty of Computer Science</h3>
+            <h3>Rector</h3>
           </div>
         </div>
         <div className="professor">
           <div className="professor-photo"></div>
           <div className="professor-name">
-            <h3>Dr. ing. Stoica Vasiliu</h3>
+            <h3>Prof. univ. dr. Nicoleta Bărbuță - MIȘU</h3>
           </div>
           <div className="professor-faculty">
-            <h3>Faculty of Computer Science</h3>
+            <h3>Prorector</h3>
           </div>
         </div>
         <div className="professor">
           <div className="professor-photo"></div>
           <div className="professor-name">
-            <h3>Dr. ing. Stoica Vasiliu</h3>
+            <h3>Prof. univ. dr. ing. Elena MEREUŢĂ</h3>
           </div>
           <div className="professor-faculty">
-            <h3>Faculty of Computer Science</h3>
+            <h3>Prorector</h3>
+          </div>
+        </div>
+        <div className="professor">
+          <div className="professor-photo"></div>
+          <div className="professor-name">
+            <h3>Alexandru NECHIFOR</h3>
+          </div>
+          <div className="professor-faculty">
+            <h3>Prorector</h3>
+          </div>
+        </div>
+        <div className="professor">
+          <div className="professor-photo"></div>
+          <div className="professor-name">
+            <h3>Prof. univ. dr. ec. dr. ing. habil. Silvius STANCIU</h3>
+          </div>
+          <div className="professor-faculty">
+            <h3>Prorector</h3>
+          </div>
+        </div>
+        <div className="professor">
+          <div className="professor-photo"></div>
+          <div className="professor-name">
+            <h3>Conf. univ. dr. Ana ȘTEFĂNESCU</h3>
+          </div>
+          <div className="professor-faculty">
+            <h3>Prorector</h3>
           </div>
         </div>
       </div>
