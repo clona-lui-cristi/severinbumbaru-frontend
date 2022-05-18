@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .content1 {
+    .logo-name {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+      background-color: #f5f5f5;
+      .logo {
+        width: 100px;
+        height: 100px;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000;
+      }
+    }
+    .text-photo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      .unu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        .text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 20px;
+          width: 100%;
+        }
+        .photo {
+          background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 75%;
+          margin: 25px;
+        }
+      }
+      .doi {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        .text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 20px;
+          width: 100%;
+        }
+        .photo {
+          background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 75%;
+          margin: 25px;
+        }
+      }
+    }
+  }
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    .image {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 600px;
+      height: 500px;
+    }
+    :nth-child(1) {
+      background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+    }
+    :nth-child(2) {
+      background-image: url(https://www.w3schools.com/w3images/lights.jpg);
+    }
+    :nth-child(3) {
+      background-image: url(https://www.w3schools.com/w3images/nature.jpg);
+    }
+  }
+}
+
+hr {
+  width: 50%;
+  height: 5px;
+  background-color: black;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+.prof-header {
+  //center the text
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 2.5rem;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    // nice gray color
+    color: #828282;
+    margin-bottom: 2rem;
+  }
+}
+
+.professors {
+  // 3 items on a row , flex box
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  .professor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    .professor-name {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .professor-photo {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-image: url("./assets/images/prof.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .professor-faculty{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+  }
+}

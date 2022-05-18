@@ -1,0 +1,130 @@
+@media only screen and (max-width: 600px) {
+    .image{
+        display: none;
+    }
+    .unu{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 400px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+    }
+    .doi{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 400px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+    }
+    .professors{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 400px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+        .professor{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .professors{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 400px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+        .professor{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    .image{
+        display: none;
+    }
+    .unu{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 600px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+    }
+    .doi{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 600px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .image{
+        display: none;
+    }
+    .unu{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 600px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+    }
+    .doi{
+        flex-direction: column-reverse !important;
+        .photo{
+            width: 85% !important;
+            height: 600px !important;
+        }
+        .text{
+            h3{
+                margin: 10px !important;
+                text-align: center;
+            }
+        }
+    }
+}
