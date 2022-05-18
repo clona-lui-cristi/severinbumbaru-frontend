@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.scss';
+import FacultyList from './components/FacultyList';
+import Formular from './components/Formular';
+import SponsorList from './components/SponsorList';
 import './Responsive.scss';
 
 function App() {
@@ -8,7 +11,7 @@ function App() {
       <div className="container">
         <div className="content1">
           <div className="logo-name">
-            <img src="logo.png" alt="logo" className="responsive-img" />
+            <div className='logo'></div>
 
             <h1>Name of the faculty</h1>
 
@@ -19,17 +22,16 @@ function App() {
             <div className="unu">
               <div className="text">
                 <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus vel risus dignissim mauris consectetur cursus nec
-                  vitae lectus. Maecenas quis nisl et nulla dapibus lacinia sit
-                  amet eu quam. Sed consectetur iaculis neque sed interdum.
-                  Quisque eget metus quis ligula porttitor viverra. Integer
-                  euismod metus massa, vel dapibus nisl pretium sit amet.
-                  Maecenas blandit blandit velit, eget dictum lacus sagittis
-                  quis. Nam nec turpis vehicula, aliquam sapien eu, ullamcorper
-                  magna. Donec volutpat molestie lorem, ut maximus enim eleifend
-                  id. Duis dapibus sem porttitor, congue turpis eu, eleifend
-                  dolor.
+                  În prezent, Universitatea „Dunărea de Jos” din Galați are 14
+                  facultăţi şi pregăteşte studenţi pentru ciclurile de studii
+                  universitare de licenţă, masterat şi doctorat în domenii
+                  diverse (tehnic, umanist, economic, sănătate, artistic).
+                  Universitatea „Dunărea de Jos” din Galați organizează ciclul
+                  II de studii cu durata de doi ani pentru absolvenţii ciclului
+                  I. În cadrul Universității „Dunărea de Jos” din Galați se
+                  derulează studii doctorale în 12 domenii, sub coordonarea a 85
+                  conducători de doctorat. În prezent, număr total de studenţi
+                  doctoranzi în stagiu este 254.
                 </h3>
               </div>
               <div className="photo"></div>
@@ -37,35 +39,26 @@ function App() {
             <div className="doi">
               <div className="text">
                 <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus vel risus dignissim mauris consectetur cursus nec
-                  vitae lectus. Maecenas quis nisl et nulla dapibus lacinia sit
-                  amet eu quam. Sed consectetur iaculis neque sed interdum.
-                  Quisque eget metus quis ligula porttitor viverra. Integer
-                  euismod metus massa, vel dapibus nisl pretium sit amet.
-                  Maecenas blandit blandit velit, eget dictum lacus sagittis
-                  quis. Nam nec turpis vehicula, aliquam sapien eu, ullamcorper
-                  magna. Donec volutpat molestie lorem, ut maximus enim eleifend
-                  id. Duis dapibus sem porttitor, congue turpis eu, eleifend
-                  dolor.
-                </h3>
-              </div>
-              <div className="photo"></div>
-            </div>
-            <div className="unu">
-              <div className="text">
-                <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus vel risus dignissim mauris consectetur cursus nec
-                  vitae lectus. Maecenas quis nisl et nulla dapibus lacinia sit
-                  amet eu quam. Sed consectetur iaculis neque sed interdum.
-                  Quisque eget metus quis ligula porttitor viverra. Integer
-                  euismod metus massa, vel dapibus nisl pretium sit amet.
-                  Maecenas blandit blandit velit, eget dictum lacus sagittis
-                  quis. Nam nec turpis vehicula, aliquam sapien eu, ullamcorper
-                  magna. Donec volutpat molestie lorem, ut maximus enim eleifend
-                  id. Duis dapibus sem porttitor, congue turpis eu, eleifend
-                  dolor.
+                  Universitatea "Dunărea de Jos" din Galați are printre
+                  obiectivele prioritare sprijinirea membrilor comunității
+                  academice în accesarea fondurilor și în implementarea de
+                  proiecte care să aducă numeroase beneficii la nivel
+                  instituțional: creșterea numărului de cercetători; susținerea
+                  formării unor generații deschise către mediul științific
+                  european și internațional; crearea unui mediu de cercetare
+                  competitiv; diseminarea cunoștințelor și rezultatelor
+                  cercetării; dezvoltarea, modernizarea și utilizarea eficientă
+                  a infrastructurii educaționale și de cercetare; eficientizarea
+                  utilizării resurselor existente în cadrul instituției;
+                  implicarea în parteneriate cu instituții publice și private;
+                  identificarea și utilizarea instrumentelor de antrenare a
+                  antreprenoriatului etc. În prezent, în cadrul Universității
+                  "Dunărea de Jos" din Galați se implementează în calitate de
+                  beneficiar și partener: 23 de Proiecte de cercetare și
+                  cooperare internațională, 19 proiecte contractate în cadrul
+                  programelor operaționale, 18 proiecte de cercetare contractate
+                  în cadrul programelor naționale, 13 proiecte cu finanțare
+                  complementară.
                 </h3>
               </div>
               <div className="photo"></div>
@@ -114,6 +107,10 @@ function App() {
           </div>
         </div>
       </div>
+
+      <FacultyList />
+      <SponsorList />
+      <Formular />
     </div>
   );
 }
