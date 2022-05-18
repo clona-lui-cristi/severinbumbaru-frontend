@@ -74,8 +74,8 @@ function App() {
 
       <hr></hr>
       <div className="prof-header">
-        <h1>Professors</h1>
-        <h3>That keep making new generations</h3>
+        <h1>Management</h1>
+        <h3>They keep the University organized</h3>
       </div>
 
       <div className="professors">
