@@ -1,4 +1,16 @@
 @media only screen and (max-width: 600px) {
+  .links{
+    h1{
+      text-align: center;
+    }
+  }
+  .end{
+    flex-direction: column !important;
+    margin-bottom: 0 !important;
+    .frontend, .backend{
+      margin: 0 !important;
+    }
+  }
   .logo-name {
    
     text-align: center;
