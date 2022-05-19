@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.scss';
-import FacultyList from './components/FacultyList';
-import Formular from './components/Formular';
-import Management from './components/Management';
-import SponsorList from './components/SponsorList';
-import './Responsive.scss';
+import React from "react";
+import "./App.scss";
+import FacultyList from "./components/FacultyList";
+import Formular from "./components/Formular";
+import Management from "./components/Management";
+import SponsorList from "./components/SponsorList";
+import "./Responsive.scss";
 
 function App() {
   return (
@@ -78,6 +78,35 @@ function App() {
       <FacultyList />
       <SponsorList />
       <Formular />
+      <div className="links">
+        <h1>Usefull resources</h1>
+        <div className="end">
+          <div
+            className="frontend"
+            onClick={() => {
+              window.open(
+                "https://github.com/w0rd-glitch/severinbumbaru-frontend",
+                "_blank"
+              );
+            }}
+          ></div>
+          <div
+            className="backend"
+            onClick={() => {
+              window.open(
+                "https://github.com/w0rd-glitch/severinbumbaru-backend",
+                "_blank"
+              );
+            }}
+          ></div>
+        </div>
+        <div
+          className="apk"
+          onClick={() => {
+            window.open("https://app.mediafire.com/myfiles", "_blank");
+          }}
+        ></div>
+      </div>
     </div>
   );
 }
